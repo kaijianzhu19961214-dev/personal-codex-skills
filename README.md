@@ -32,6 +32,10 @@ skills/
     references/
   ui-ux-pro-max/
     SKILL.md
+  web-access/
+    SKILL.md
+    scripts/
+    references/
 ```
 
 ## Install On A New Machine
@@ -89,6 +93,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/technical-writing
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/web-access
 ```
 
 Restart Codex after adding or updating skills.
