@@ -6,7 +6,12 @@ This repository stores reusable Codex skills for personal use across machines.
 
 ```text
 skills/
+  agent-browser/
+    SKILL.md
   api-explorer/
+    SKILL.md
+    references/
+  browser-verification/
     SKILL.md
     references/
   find-skills/
@@ -28,12 +33,20 @@ skills/
   frontend-implementation-from-design/
     SKILL.md
     references/
+  gh-address-comments/
+    SKILL.md
+    scripts/
+  gh-fix-ci/
+    SKILL.md
+    scripts/
   git-workflow/
     SKILL.md
     references/
   github-skill-forge/
     SKILL.md
     scripts/
+  humanizer/
+    SKILL.md
   interaction-design/
     SKILL.md
     references/
@@ -91,7 +104,15 @@ Install all skills with symlinks:
 Or install a single skill with Codex:
 
 ```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/agent-browser
+```
+
+```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/api-explorer
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/browser-verification
 ```
 
 ```text
@@ -123,6 +144,14 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 ```
 
 ```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/gh-address-comments
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/gh-fix-ci
+```
+
+```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-chinese-notes
 ```
 
@@ -132,6 +161,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/github-skill-forge
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/humanizer
 ```
 
 ```text
@@ -177,6 +210,13 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/workflow-orchestrator
 ```
+
+## Tool Notes
+
+Some skills rely on external CLIs:
+
+- `gh-address-comments` and `gh-fix-ci` require the GitHub CLI (`gh`) and GitHub authentication.
+- `agent-browser` requires the `agent-browser` CLI. `browser-verification` can fall back to `web-access` when `agent-browser` is unavailable.
 
 ## MemSearch Notes
 
