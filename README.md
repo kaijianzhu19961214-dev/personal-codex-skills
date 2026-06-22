@@ -15,6 +15,9 @@ skills/
   interaction-design/
     SKILL.md
     references/
+  skill-chinese-notes/
+    SKILL.md
+    references/
 ```
 
 ## Install On A New Machine
@@ -44,6 +47,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/frontend-design
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-chinese-notes
 ```
 
 Restart Codex after adding or updating skills.

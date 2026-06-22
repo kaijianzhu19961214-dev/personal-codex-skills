@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Chinese Notes"
+  short_description: "Add concise Chinese notes to imported skills"
+  default_prompt: "Use $skill-chinese-notes to add concise Chinese guidance to this imported skill without changing its trigger metadata."
