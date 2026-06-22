@@ -6,6 +6,8 @@ This repository stores reusable Codex skills for personal use across machines.
 
 ```text
 skills/
+  find-skills/
+    SKILL.md
   frontend-design/
     SKILL.md
     LICENSE.txt
@@ -64,6 +66,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/github-skill-forge
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/find-skills
 ```
 
 Restart Codex after adding or updating skills.
