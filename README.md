@@ -22,6 +22,12 @@ skills/
   interaction-design/
     SKILL.md
     references/
+  memory-config/
+    SKILL.md
+  memory-recall/
+    SKILL.md
+  memory-to-skill/
+    SKILL.md
   multi-search-engine/
     SKILL.md
     references/
@@ -39,6 +45,11 @@ skills/
     SKILL.md
     scripts/
     references/
+vendor/
+  memsearch-codex/
+    hooks/
+    scripts/
+    prompts/
 ```
 
 ## Install On A New Machine
@@ -105,5 +116,23 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/web-access
 ```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/memory-recall
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/memory-config
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/memory-to-skill
+```
+
+## MemSearch Notes
+
+`memory-recall`, `memory-config`, and `memory-to-skill` are vendored from the MemSearch Codex plugin. This repository installs the skills and support files only; it does not automatically enable Codex hooks, install `uv`, or download embedding models.
+
+The support files are stored in `vendor/memsearch-codex/` and copied locally to `~/.codex/memsearch-codex/`. Enable automatic memory capture only after reviewing the hook behavior and confirming that writing project-local `.memsearch/memory/*.md` files is desired.
 
 Restart Codex after adding or updating skills.
