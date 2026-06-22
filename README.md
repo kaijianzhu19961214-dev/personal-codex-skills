@@ -18,6 +18,8 @@ skills/
   skill-chinese-notes/
     SKILL.md
     references/
+  ui-ux-pro-max/
+    SKILL.md
 ```
 
 ## Install On A New Machine
@@ -51,6 +53,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-chinese-notes
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/ui-ux-pro-max
 ```
 
 Restart Codex after adding or updating skills.
