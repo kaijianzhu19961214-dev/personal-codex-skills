@@ -22,6 +22,9 @@ skills/
   interaction-design/
     SKILL.md
     references/
+  multi-search-engine/
+    SKILL.md
+    references/
   skill-chinese-notes/
     SKILL.md
     references/
@@ -93,6 +96,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/technical-writing
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/multi-search-engine
 ```
 
 ```text
