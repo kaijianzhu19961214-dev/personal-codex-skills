@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Workflow"
+  short_description: "Safe local Git and GitHub repository workflow"
+  default_prompt: "Use $git-workflow to inspect my repository state and guide a safe commit or push."

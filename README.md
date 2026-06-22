@@ -6,6 +6,9 @@ This repository stores reusable Codex skills for personal use across machines.
 
 ```text
 skills/
+  git-workflow/
+    SKILL.md
+    references/
   interaction-design/
     SKILL.md
     references/
@@ -32,5 +35,8 @@ Or install a single skill with Codex:
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/interaction-design
 ```
 
-Restart Codex after adding or updating skills.
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/git-workflow
+```
 
+Restart Codex after adding or updating skills.
