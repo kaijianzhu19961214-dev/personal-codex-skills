@@ -6,6 +6,9 @@ This repository stores reusable Codex skills for personal use across machines.
 
 ```text
 skills/
+  api-explorer/
+    SKILL.md
+    references/
   find-skills/
     SKILL.md
   doc-coauthoring/
@@ -45,6 +48,9 @@ skills/
     SKILL.md
     scripts/
     references/
+  workflow-orchestrator/
+    SKILL.md
+    references/
 vendor/
   memsearch-codex/
     hooks/
@@ -68,6 +74,10 @@ Install all skills with symlinks:
 ```
 
 Or install a single skill with Codex:
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/api-explorer
+```
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/interaction-design
@@ -127,6 +137,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/memory-to-skill
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/workflow-orchestrator
 ```
 
 ## MemSearch Notes
