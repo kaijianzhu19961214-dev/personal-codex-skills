@@ -13,9 +13,21 @@ skills/
     SKILL.md
   doc-coauthoring/
     SKILL.md
+  context7-doc-research/
+    SKILL.md
+    references/
+  fastapi-api-doc/
+    SKILL.md
+    references/
+  fastapi-test-writer/
+    SKILL.md
+    references/
   frontend-design/
     SKILL.md
     LICENSE.txt
+  frontend-implementation-from-design/
+    SKILL.md
+    references/
   git-workflow/
     SKILL.md
     references/
@@ -32,6 +44,9 @@ skills/
   memory-to-skill/
     SKILL.md
   multi-search-engine/
+    SKILL.md
+    references/
+  python-code-review/
     SKILL.md
     references/
   skill-chinese-notes/
@@ -80,6 +95,18 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 ```
 
 ```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/context7-doc-research
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/fastapi-api-doc
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/fastapi-test-writer
+```
+
+```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/interaction-design
 ```
 
@@ -89,6 +116,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/frontend-design
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/frontend-implementation-from-design
 ```
 
 ```text
@@ -121,6 +152,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/multi-search-engine
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/python-code-review
 ```
 
 ```text
