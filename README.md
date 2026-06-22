@@ -12,6 +12,9 @@ skills/
   git-workflow/
     SKILL.md
     references/
+  github-skill-forge/
+    SKILL.md
+    scripts/
   interaction-design/
     SKILL.md
     references/
@@ -57,6 +60,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/ui-ux-pro-max
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/github-skill-forge
 ```
 
 Restart Codex after adding or updating skills.
