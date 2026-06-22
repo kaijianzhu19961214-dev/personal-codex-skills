@@ -8,6 +8,8 @@ This repository stores reusable Codex skills for personal use across machines.
 skills/
   find-skills/
     SKILL.md
+  doc-coauthoring/
+    SKILL.md
   frontend-design/
     SKILL.md
     LICENSE.txt
@@ -21,6 +23,11 @@ skills/
     SKILL.md
     references/
   skill-chinese-notes/
+    SKILL.md
+    references/
+  technical-writer/
+    SKILL.md
+  technical-writing/
     SKILL.md
     references/
   ui-ux-pro-max/
@@ -70,6 +77,18 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/find-skills
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/technical-writer
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/doc-coauthoring
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/technical-writing
 ```
 
 Restart Codex after adding or updating skills.

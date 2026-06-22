@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Writing"
+  short_description: "Chinese-first docs, README, and API writing rules"
+  default_prompt: "Use $technical-writing to write or update concise Chinese-first technical documentation."
