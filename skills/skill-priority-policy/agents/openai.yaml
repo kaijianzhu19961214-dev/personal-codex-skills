@@ -1,0 +1,3 @@
+display_name: Skill Priority Policy
+short_description: Define personal skill priority rules.
+default_prompt: 帮我检查当前 skills 的加载优先级、命名冲突和个人仓库维护规则。

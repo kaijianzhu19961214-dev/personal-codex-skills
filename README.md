@@ -108,6 +108,10 @@ skills/
   skill-chinese-notes/
     SKILL.md
     references/
+  skill-priority-policy/
+    SKILL.md
+    agents/
+    references/
   skill-vetter/
     SKILL.md
     references/
@@ -236,6 +240,25 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-chinese-notes
 ```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-priority-policy
+```
+
+## Skill Priority Policy
+
+This repository is the canonical source for personal Codex skills.
+
+Priority model:
+
+1. Current user request wins for the current turn.
+2. Project-local `AGENTS.md` wins for the current repository's coding style and workflow.
+3. Personal skills in this repository define reusable long-term preferences.
+4. `~/.codex/skills` exposes skills to Codex, usually through symlinks from this repository.
+5. `~/.codex/skills/.system` and bundled runtime skills are baseline system capabilities and should not be edited.
+6. Third-party marketplace or GitHub skills should be vetted, annotated, wrapped, or vendored deliberately instead of silently modified.
+
+Avoid duplicate skill names. When a third-party skill overlaps with a personal workflow, prefer a clearly named personal wrapper skill and keep upstream behavior readable.
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-vetter
