@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Converter"
+  short_description: "Convert files and web content into LLM-ready Markdown."
+  default_prompt: "Convert this source into clean Markdown, preserve source metadata, and report any extraction issues."

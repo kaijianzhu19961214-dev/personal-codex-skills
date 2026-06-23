@@ -18,6 +18,10 @@ skills/
     SKILL.md
     agents/
     references/
+  markdown-converter/
+    SKILL.md
+    agents/
+    references/
   find-skills/
     SKILL.md
   doc-coauthoring/
@@ -126,6 +130,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/content-summarizer
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/markdown-converter
 ```
 
 ```text
