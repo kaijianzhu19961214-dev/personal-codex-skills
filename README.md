@@ -50,6 +50,8 @@ skills/
   interaction-design/
     SKILL.md
     references/
+  karpathy-guidelines/
+    SKILL.md
   memory-config/
     SKILL.md
   memory-recall/
@@ -165,6 +167,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/humanizer
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/karpathy-guidelines
 ```
 
 ```text
