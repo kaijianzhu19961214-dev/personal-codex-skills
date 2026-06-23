@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Figure Diagramming"
+  short_description: "Plan research figures and diagrams."
+  default_prompt: "帮我把这项研究整理成可编辑图表或流程图方案，用于报告或论文。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quant Factor Research"
+  short_description: "Research and validate quant factors."
+  default_prompt: "帮我研究这个量化因子想法，形成假设、数据需求、检验流程和回测计划。"

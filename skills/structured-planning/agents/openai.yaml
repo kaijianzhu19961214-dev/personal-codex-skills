@@ -1,0 +1,4 @@
+interface:
+  display_name: "Structured Planning"
+  short_description: "Plan complex work before execution."
+  default_prompt: "帮我把这个任务拆成结构化计划，明确目标、约束、验收标准和执行步骤。"

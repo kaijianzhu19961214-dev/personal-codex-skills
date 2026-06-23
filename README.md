@@ -6,6 +6,10 @@ This repository stores reusable Codex skills for personal use across machines.
 
 ```text
 skills/
+  academic-literature-research/
+    SKILL.md
+    agents/
+    references/
   agent-browser/
     SKILL.md
   anti-distill/
@@ -42,6 +46,10 @@ skills/
     SKILL.md
   document-parser/
     SKILL.md
+  empirical-research-methods/
+    SKILL.md
+    agents/
+    references/
   fastapi-api-doc/
     SKILL.md
     references/
@@ -102,8 +110,24 @@ skills/
     SKILL.md
   pdf-generation/
     SKILL.md
+  quant-factor-research/
+    SKILL.md
+    agents/
+    references/
+  quant-research-report/
+    SKILL.md
+    agents/
+    references/
   python-code-review/
     SKILL.md
+    references/
+  requesting-code-review/
+    SKILL.md
+    agents/
+    references/
+  research-figure-diagramming/
+    SKILL.md
+    agents/
     references/
   skill-chinese-notes/
     SKILL.md
@@ -114,6 +138,14 @@ skills/
     references/
   skill-vetter/
     SKILL.md
+    references/
+  structured-planning/
+    SKILL.md
+    agents/
+    references/
+  systematic-debugging/
+    SKILL.md
+    agents/
     references/
   technical-writer/
     SKILL.md
@@ -259,6 +291,22 @@ Priority model:
 6. Third-party marketplace or GitHub skills should be vetted, annotated, wrapped, or vendored deliberately instead of silently modified.
 
 Avoid duplicate skill names. When a third-party skill overlaps with a personal workflow, prefer a clearly named personal wrapper skill and keep upstream behavior readable.
+
+## Skill Groups
+
+Use these groups to decide priority and avoid accidental overlap:
+
+| Group | Primary skills | Role |
+|---|---|---|
+| Core workflow | `structured-planning`, `systematic-debugging`, `requesting-code-review`, `workflow-orchestrator`, `git-workflow`, `skill-priority-policy`, `skill-vetter` | Plan, debug, review, orchestrate, and govern work. |
+| Python/FastAPI | `python-code-review`, `fastapi-test-writer`, `fastapi-api-doc`, `technical-writing` | Project-specific engineering quality and documentation. |
+| Quant research | `quant-factor-research`, `quant-research-report`, `academic-literature-research`, `empirical-research-methods`, `research-figure-diagramming` | Factor research, empirical validation, literature, visualization, and recurring reports. |
+| Knowledge base | `obsidian-knowledge-base`, `obsidian-pkm-workflows`, `obsidian-help`, `content-summarizer`, `context-compression` | Capture, summarize, organize, and synthesize notes. |
+| Current docs/research tools | `context7-doc-research`, `multi-search-engine`, `deep-research-report`, `document-parser`, `markdown-converter` | Current documentation, web research, and source conversion. |
+| Frontend/UI | `frontend-design`, `interaction-design`, `frontend-implementation-from-design`, `ui-ux-pro-max`, `browser-verification` | UI design, implementation, and browser verification. |
+| Experimental/vendor-inspired | `awesome-human-distillation`, `anti-distill`, `github-skill-forge`, `karpathy-guidelines`, `humanizer` | Useful references or specialized workflows; keep trigger scope narrow. |
+
+When two skills overlap, prefer the most specific personal skill. For example, use `quant-factor-research` for factor validation, `academic-literature-research` for paper discovery, and `quant-research-report` for the final recurring report.
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-vetter

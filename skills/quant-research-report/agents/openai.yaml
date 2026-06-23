@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quant Research Report"
+  short_description: "Write recurring quant research reports."
+  default_prompt: "帮我把这次因子研究结果整理成中文量化研报，包含结论、证据、风险和下期计划。"

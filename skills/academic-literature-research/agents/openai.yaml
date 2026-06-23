@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Literature Research"
+  short_description: "Find and synthesize research papers."
+  default_prompt: "帮我围绕这个研究问题检索、筛选和综述相关论文，并保留来源与证据。"

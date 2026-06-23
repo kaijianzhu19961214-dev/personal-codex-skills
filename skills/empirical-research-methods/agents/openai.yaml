@@ -1,0 +1,4 @@
+interface:
+  display_name: "Empirical Research Methods"
+  short_description: "Design empirical tests and robustness."
+  default_prompt: "帮我把这个研究问题设计成规范的实证检验，包括识别、回归、稳健性和局限。"

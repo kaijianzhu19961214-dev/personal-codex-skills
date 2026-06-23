@@ -1,0 +1,4 @@
+interface:
+  display_name: "Systematic Debugging"
+  short_description: "Debug issues with evidence and tests."
+  default_prompt: "帮我系统排查这个问题，先复现，再提出假设、验证证据和最小修复。"
