@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Knowledge Base"
+  short_description: "Create linked Obsidian notes from research."
+  default_prompt: "Create an Obsidian note with metadata, links, tags, and next actions."

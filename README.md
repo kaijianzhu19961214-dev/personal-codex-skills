@@ -76,6 +76,12 @@ skills/
   multi-search-engine/
     SKILL.md
     references/
+  obsidian-knowledge-base/
+    SKILL.md
+    agents/
+    assets/
+    references/
+    scripts/
   python-code-review/
     SKILL.md
     references/
@@ -229,6 +235,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/multi-search-engine
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/obsidian-knowledge-base
 ```
 
 ```text
