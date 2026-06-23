@@ -27,6 +27,7 @@ Use this skill to produce recurring quant research reports. Reports should be de
    - turnover and costs
    - robustness checks
    - charts/tables
+   - optional imagegen illustration or visual summary card
 3. State the conclusion first.
 4. Separate facts, interpretation, and recommendations.
 5. Include limitations and failure conditions.
@@ -61,9 +62,11 @@ Use this structure unless the user asks otherwise:
 - Mention transaction costs when discussing tradability.
 - Use tables for metrics and bullets for action items.
 - Do not duplicate code; describe changed logic and link files when needed.
+- Use generated images only for explanatory or editorial visuals, not as evidence.
 
 ## References
 
 - Use `references/report-template.md` for the full report template.
 - Use `references/metric-glossary.md` for common metric definitions.
 - Use `academic-literature-research` for paper-backed context and `empirical-research-methods` for regression/robustness language.
+- Use `research-figure-diagramming` when a report needs charts, diagrams, or Codex `imagegen` visual summaries.
