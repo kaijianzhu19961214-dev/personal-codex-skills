@@ -114,6 +114,10 @@ skills/
     SKILL.md
     agents/
     references/
+  quant-research-memory/
+    SKILL.md
+    agents/
+    references/
   quant-research-report/
     SKILL.md
     agents/
@@ -300,7 +304,7 @@ Use these groups to decide priority and avoid accidental overlap:
 |---|---|---|
 | Core workflow | `structured-planning`, `systematic-debugging`, `requesting-code-review`, `workflow-orchestrator`, `git-workflow`, `skill-priority-policy`, `skill-vetter` | Plan, debug, review, orchestrate, and govern work. |
 | Python/FastAPI | `python-code-review`, `fastapi-test-writer`, `fastapi-api-doc`, `technical-writing` | Project-specific engineering quality and documentation. |
-| Quant research | `quant-factor-research`, `quant-research-report`, `academic-literature-research`, `empirical-research-methods`, `research-figure-diagramming` | Factor research, empirical validation, literature, visualization, and recurring reports. |
+| Quant research | `quant-factor-research`, `quant-research-memory`, `quant-research-report`, `academic-literature-research`, `empirical-research-methods`, `research-figure-diagramming` | Factor research, storage/memory routing, empirical validation, literature, visualization, and recurring reports. |
 | Knowledge base | `obsidian-knowledge-base`, `obsidian-pkm-workflows`, `obsidian-help`, `content-summarizer`, `context-compression` | Capture, summarize, organize, and synthesize notes. |
 | Current docs/research tools | `context7-doc-research`, `multi-search-engine`, `deep-research-report`, `document-parser`, `markdown-converter` | Current documentation, web research, and source conversion. |
 | Frontend/UI | `frontend-design`, `interaction-design`, `frontend-implementation-from-design`, `ui-ux-pro-max`, `browser-verification` | UI design, implementation, and browser verification. |

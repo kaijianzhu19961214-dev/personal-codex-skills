@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quant Research Memory"
+  short_description: "Route quant data, metadata, and memory."
+  default_prompt: "帮我判断这份量化研究内容应该进入结构化数据、实验元数据、Obsidian 研究记忆还是因子验证流程。"
