@@ -8,7 +8,14 @@ This repository stores reusable Codex skills for personal use across machines.
 skills/
   agent-browser/
     SKILL.md
+  anti-distill/
+    SKILL.md
+    prompts/
+    examples/
   api-explorer/
+    SKILL.md
+    references/
+  awesome-human-distillation/
     SKILL.md
     references/
   browser-verification/
@@ -121,7 +128,15 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 ```
 
 ```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/anti-distill
+```
+
+```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/api-explorer
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/awesome-human-distillation
 ```
 
 ```text
