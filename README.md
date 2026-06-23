@@ -94,6 +94,8 @@ skills/
     assets/
     references/
     scripts/
+  obsidian-pkm-workflows/
+    SKILL.md
   obsidian-help/
     SKILL.md
   paper-to-code/
@@ -281,6 +283,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/obsidian-knowledge-base
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/obsidian-pkm-workflows
 ```
 
 ```text
