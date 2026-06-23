@@ -25,6 +25,8 @@ skills/
     SKILL.md
     agents/
     references/
+  context-compression/
+    SKILL.md
   markdown-converter/
     SKILL.md
     agents/
@@ -36,6 +38,10 @@ skills/
   context7-doc-research/
     SKILL.md
     references/
+  deep-research-report/
+    SKILL.md
+  document-parser/
+    SKILL.md
   fastapi-api-doc/
     SKILL.md
     references/
@@ -67,6 +73,10 @@ skills/
     references/
   karpathy-guidelines/
     SKILL.md
+  latex-document/
+    SKILL.md
+  literature-review/
+    SKILL.md
   memory-config/
     SKILL.md
   memory-recall/
@@ -76,12 +86,20 @@ skills/
   multi-search-engine/
     SKILL.md
     references/
+  mindmap-markmap/
+    SKILL.md
   obsidian-knowledge-base/
     SKILL.md
     agents/
     assets/
     references/
     scripts/
+  obsidian-help/
+    SKILL.md
+  paper-to-code/
+    SKILL.md
+  pdf-generation/
+    SKILL.md
   python-code-review/
     SKILL.md
     references/
@@ -154,11 +172,23 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 ```
 
 ```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/context-compression
+```
+
+```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/markdown-converter
 ```
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/context7-doc-research
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/deep-research-report
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/document-parser
 ```
 
 ```text
@@ -171,6 +201,14 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/interaction-design
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/latex-document
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/literature-review
 ```
 
 ```text
@@ -238,7 +276,23 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 ```
 
 ```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/mindmap-markmap
+```
+
+```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/obsidian-knowledge-base
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/obsidian-help
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/paper-to-code
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/pdf-generation
 ```
 
 ```text
