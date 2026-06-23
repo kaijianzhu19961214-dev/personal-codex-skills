@@ -67,6 +67,9 @@ skills/
   skill-chinese-notes/
     SKILL.md
     references/
+  skill-vetter/
+    SKILL.md
+    references/
   technical-writer/
     SKILL.md
   technical-writing/
@@ -155,6 +158,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-chinese-notes
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/skill-vetter
 ```
 
 ```text
