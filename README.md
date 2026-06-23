@@ -14,6 +14,10 @@ skills/
   browser-verification/
     SKILL.md
     references/
+  content-summarizer/
+    SKILL.md
+    agents/
+    references/
   find-skills/
     SKILL.md
   doc-coauthoring/
@@ -118,6 +122,10 @@ $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/ski
 
 ```text
 $skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/browser-verification
+```
+
+```text
+$skill-installer https://github.com/<your-github-user>/<repo-name>/tree/main/skills/content-summarizer
 ```
 
 ```text

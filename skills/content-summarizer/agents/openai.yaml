@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Summarizer"
+  short_description: "Chinese-first summaries with sources and action items."
+  default_prompt: "Summarize this content into TL;DR, key conclusions, evidence, action items, and open questions."
