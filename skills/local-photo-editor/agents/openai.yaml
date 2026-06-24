@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Photo Editor"
+  short_description: "Edit, convert, resize, and export photos"
+  default_prompt: "Use $local-photo-editor to batch crop, resize, convert, or export photos."

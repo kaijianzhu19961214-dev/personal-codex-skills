@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Report Ingestion"
+  short_description: "Ingest financial research reports safely"
+  default_prompt: "Use $financial-report-ingestion to index and summarize finance research reports into Obsidian."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Critique"
+  short_description: "Critique photos and suggest practical edits"
+  default_prompt: "Use $photo-critique to critique this photo and suggest edits."

@@ -2,6 +2,24 @@
 
 This repository stores reusable Codex skills for personal use across machines.
 
+## Skill Groups
+
+### Photography Post-Processing
+
+Use these skills for Lightroom/Photoshop-style photographic editing, not research-report figures or UI graphics:
+
+- `photo-post-processing`: top-level dispatcher for photography editing tasks.
+- `photo-critique`: photo diagnosis and practical edit suggestions.
+- `lightroom-style-workflow`: non-destructive color grading and RAW/JPEG development.
+- `photoshop-retouching-workflow`: local retouching, cleanup, layers, and portrait refinement.
+- `local-photo-editor`: deterministic crop, resize, convert, export, metadata, and batch operations.
+- `ai-photo-editing`: generative edits using Codex imagegen or similar image models.
+
+### Quant Data And Research Memory
+
+- `external-data-watch`: monitor external statistics, industry data, inventory, supply-demand forecasts, and route updates into Obsidian/PostgreSQL/ClickHouse/MinIO.
+- `financial-report-ingestion`: index and summarize financial research reports into Obsidian without copying full copyrighted text.
+
 ## Layout
 
 ```text

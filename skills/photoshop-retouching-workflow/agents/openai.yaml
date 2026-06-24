@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photoshop Retouching"
+  short_description: "Plan detailed Photoshop-style retouching"
+  default_prompt: "Use $photoshop-retouching-workflow to plan a clean retouching workflow."

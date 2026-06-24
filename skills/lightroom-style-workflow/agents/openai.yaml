@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lightroom Workflow"
+  short_description: "Plan non-destructive photo color edits"
+  default_prompt: "Use $lightroom-style-workflow to design a non-destructive color grading workflow."

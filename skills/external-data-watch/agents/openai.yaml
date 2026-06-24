@@ -1,0 +1,4 @@
+interface:
+  display_name: "External Data Watch"
+  short_description: "Monitor external statistics and industry data"
+  default_prompt: "Use $external-data-watch to review external statistics and industry data sources for quant research."

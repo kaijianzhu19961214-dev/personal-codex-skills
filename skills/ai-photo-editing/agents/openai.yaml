@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Photo Editing"
+  short_description: "Plan AI-assisted generative photo edits"
+  default_prompt: "Use $ai-photo-editing to plan an AI-assisted photo edit with imagegen."

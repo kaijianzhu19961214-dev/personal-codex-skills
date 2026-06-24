@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Post Processing"
+  short_description: "Route photography edits across LR, PS, local, and AI"
+  default_prompt: "Use $photo-post-processing to plan a Lightroom/Photoshop-style edit for this photo."
