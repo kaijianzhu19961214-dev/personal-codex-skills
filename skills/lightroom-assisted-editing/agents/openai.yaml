@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lightroom Assisted Editing"
+  short_description: "Codex-assisted manual Lightroom editing workflow."
+  default_prompt: "Use Lightroom-assisted editing to analyze a photo, produce Lightroom parameters, guide manual application, and verify exported results."

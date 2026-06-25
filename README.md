@@ -11,6 +11,7 @@ Use these skills for Lightroom/Photoshop-style photographic editing, not researc
 - `photo-post-processing`: top-level dispatcher for photography editing tasks.
 - `photo-critique`: photo diagnosis and practical edit suggestions.
 - `lightroom-style-workflow`: non-destructive color grading and RAW/JPEG development.
+- `lightroom-assisted-editing`: Codex-assisted manual Lightroom Classic workflow when Lightroom MCP is unavailable or unstable.
 - `photoshop-retouching-workflow`: local retouching, cleanup, layers, and portrait refinement.
 - `local-photo-editor`: deterministic crop, resize, convert, export, metadata, and batch operations.
 - `ai-photo-editing`: generative edits using Codex imagegen or similar image models.
@@ -103,6 +104,10 @@ skills/
     SKILL.md
   literature-review/
     SKILL.md
+  lightroom-assisted-editing/
+    SKILL.md
+    agents/
+    references/
   memory-config/
     SKILL.md
   memory-recall/
